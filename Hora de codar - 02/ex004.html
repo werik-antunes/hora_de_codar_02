@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*Faça um programa que leia 3 valores informados pelo usuário (considere que
+         não serão informados valores iguais) e escrever a soma dos 2 maiores.*/
+        var valor1 = Number(prompt("Digite o primeiro valor: "))
+        var valor2 = Number(prompt("Digite o segundo valor: "))
+        var valor3 = Number(prompt("Digite o terceiro valor: "))
+
+       
+        var maior = Math.max(valor1, valor2, valor3)
+        var menor = Math.min(valor1, valor2, valor3)
+        var soma = valor1 + valor2 + valor3 - menor
+
+       
+        alert("A soma dos dois maiores valores é: " + soma )
+
+
+
+    </script>
+</body>
+
+</html>

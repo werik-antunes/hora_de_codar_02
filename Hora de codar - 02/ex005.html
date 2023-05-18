@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* Faça um programa que leia 6 valores informados pelo usuário. Agora  exiba os números informados e, em seguida, escreva a 
+        média aritmética desses valores*/
+        
+        var valores = []
+        for (var i = 0; i < 6; i++) {
+            var valor = Number(prompt("Digite o valor " + (i + 1) + ":"))
+            valores.
+                push(valor)
+        }
+       alert("Números informados: " + valores.join(", "))
+        var soma = 0
+        for (var i = 0; i < valores.length; i++) {
+            soma += valores[i]
+        }
+        var media = soma / valores.length
+        alert("Média aritmética: " + media)
+    </script>
+</body>
+
+</html>
